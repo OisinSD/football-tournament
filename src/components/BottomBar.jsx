@@ -18,8 +18,8 @@ import { NavLink, useLocation } from "react-router-dom";
     return(
         
         <div
-        className=" position-fixed bottom-0 text-center w-100 shadow-lg d-flex align-items-center justify-content-around"
-        style={{ backgroundColor: "#414158", height: "70px" }}>
+        className="position-fixed bottom-0 text-center w-100 shadow-lg d-flex align-items-center justify-content-around"
+        style={{ backgroundColor: "#414158", height: "60px" }}>
             
             <NavLink to="/mainDashBoard" className="border-0">
             {pathname === "/mainDashBoard" ? <HomeFilled style={{fontSize: "24px", color: "white"}} /> : <HomeOutlined style={{fontSize: "24px", color: "white"}}/> }

@@ -9,6 +9,7 @@ import ProfilePage from './pages/ProfilePage';
 import TableStandings from './pages/TableStandingsPage';
 import WelcomePage from './pages/WelcomePage';
 import History from "./pages/HistoryPage";
+import Notifications from "./pages/NotificationsPage";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -24,6 +25,7 @@ const App = () => {
           <Route path = "/MyProfile" element={<ProfilePage />} />
           <Route path = "/mainDashBoard" element={<MainDashBoard />} />
           <Route path = "/history" element = {<History />} />
+          <Route path = "/notifications" element = {<Notifications/>}/>
         </Routes>
       </div>
     </Router>

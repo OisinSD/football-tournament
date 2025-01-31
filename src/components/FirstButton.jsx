@@ -1,17 +1,4 @@
-// import React, { Children } from "react";
-// import { Button } from "antd";
 
-// const FirstButton = ({
-//     children
-// }) => {
-//     return (
-//         <Button>
-//             {children}
-//         </Button>
-//     );
-// };
-
-// export default FirstButton;
 
 import React,  { Children } from 'react';
 import { Button, ConfigProvider } from 'antd';

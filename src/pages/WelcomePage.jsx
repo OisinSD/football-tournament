@@ -43,29 +43,3 @@ export default function WelcomePage(){
         );
     }
 
-
-
-
-
-// }
-// const WelcomePage = () => {
-//     return (
-//         <>
-//         <Layout
-//         style={{background: "#F8F8F8"
-//         }}>
-//             <div>
-//             <h1>Welcome to my Website!!!!</h1>
-//         </div>
-//         <div>
-//             <FirstButton>
-//                 Get Started!
-//             </FirstButton>
-//         </div>
-//         </Layout>
-//         </>
-//     );
-// };
-
-// export default WelcomePage;
-
