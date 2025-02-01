@@ -6,6 +6,7 @@ import { NavLink, useLocation} from "react-router-dom";
 export default function TopBar(){
     const {pathname} = useLocation();
     return(
+        /** This is the top bar which contains 3 parts, a top left icon (does nothing), center text, top right icon(notification page)**/ 
             <div 
             className="position-fixed top-0 w-100 shadow-lg d-flex align-items-center justify-content-between px-3"
             style={{ backgroundColor: "#181928", height: "60px" }}>
