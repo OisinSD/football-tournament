@@ -1,8 +1,8 @@
 import React from "react";
-import BottomBar from "../components/BottomBar";
+import BottomBar from "../components/Bars/BottomBar";
 import "../styles.css";
 import { Layout } from "antd";
-import TopBar from "../components/TopBar";
+import TopBar from "../components/Bars/TopBar";
 
 export default function TableStandings(){
     return(

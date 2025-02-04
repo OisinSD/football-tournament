@@ -1,5 +1,5 @@
 import React from "react";
-// import "../styles";
+import "../../styles.css";
 import { BellOutlined, BellFilled, AlignCenterOutlined, LeftOutlined } from "@ant-design/icons";
 import { NavLink, useLocation} from "react-router-dom";
 

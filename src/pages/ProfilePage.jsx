@@ -1,9 +1,9 @@
 import React from "react";
 import "../styles.css";
-import BottomBar from "../components/BottomBar";
+import BottomBar from "../components/Bars/BottomBar";
 import { Layout } from "antd";
-import TopBar from "../components/TopBar";
-import FirstButton from "../components/FirstButton";
+import TopBar from "../components/Bars/TopBar";
+import FirstButton from "../components/Buttons/FirstButton";
 import {NavLink, useLocation} from "react-router-dom";
 import { useNavigate} from "react-router-dom";
 

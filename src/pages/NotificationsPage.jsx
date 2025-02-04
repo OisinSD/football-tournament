@@ -1,25 +1,26 @@
 import React from "react";
 import "../styles.css";
 import { Layout } from "antd";
-import BottomBar from "../components/BottomBar";
-import TopBar from "../components/TopBar";
-import notificationCard from "../components/Cards";
-// import { Color } from "antd/es/color-picker";
+import TopBar from "../components/Bars/TopBar";
+import NotificationCard from "../components/Cards/NotificationCard";
+import Winner from "../assets/cousinsCupWinner.png";
 
-export default function notifications(){
+
+export default function Notifications(){
 
     return(
       <>
-      <TopBar></TopBar>
-
-      {/* <notificationCard> */}
+      <TopBar/>
       <Layout className="back-drop">
-      <div className="word-content">
-        <h3>Oisin will win the 2026 Cousins Cup</h3>
-      </div>  
+      
+      <div>
+        <NotificationCard
+          image = {Winner}
+          title="2024 Winner"
+          description=""
+          />
+      </div>
       </Layout>
-      {/* </notificationCard> */}
-      {/* <BottomBar></BottomBar> */}
       </>
     );
 }

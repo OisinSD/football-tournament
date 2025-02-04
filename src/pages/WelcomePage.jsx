@@ -1,15 +1,18 @@
 import React from "react";
-import FirstButton from "../components/FirstButton";
+import FirstButton from "../components/Buttons/FirstButton";
 import { Layout } from "antd";
 import { useNavigate } from "react-router-dom";
 import CousinsImg from "../assets/WelcomeImg.png";
 import "../styles.css";
+import TopBar from "../components/Bars/TopBar";
+
 
 export default function WelcomePage(){
     const navigateToMainDash = useNavigate() 
     
         return (
             <>
+            
             <Layout 
             className="welcome-page"
             style={{ backgroundImage: `url(${CousinsImg})` }} 

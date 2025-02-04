@@ -1,8 +1,8 @@
 import React from "react";
 import { Layout } from "antd";
 import "../styles.css";
-import BottomBar from "../components/BottomBar";
-import TopBar from "../components/TopBar";
+import BottomBar from "../components/Bars/BottomBar";
+import TopBar from "../components/Bars/TopBar";
 
 export default function MainDashBoard(){
 
