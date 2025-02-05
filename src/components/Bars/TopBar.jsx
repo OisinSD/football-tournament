@@ -9,18 +9,18 @@ export default function TopBar(){
         /** This is the top bar which contains 3 parts, a top left icon (does nothing), center text, top right icon(notification page)**/ 
             <div 
             className="position-fixed top-0 w-100 shadow-lg d-flex align-items-center justify-content-between px-3"
-            style={{ backgroundColor: "#181928", height: "60px" }}>
+            style={{ backgroundColor: "#181928", height: "50px" }}>
                
             {pathname === "/notifications" ? (
                 <NavLink to ="/mainDashBoard" className="border-0">
-                    <LeftOutlined style={{fontSize: "24px", color:"white"}}/> 
+                    <LeftOutlined style={{fontSize: "22px", color:"white"}}/> 
                 </NavLink> )
                 :
-                (<AlignCenterOutlined style={{fontSize: "24px", color:"white"}}/> )}
+                (<AlignCenterOutlined style={{fontSize: "22px", color:"white"}}/> )}
                 
             <h4 style={{color: "white"}}>The Cousins Cup</h4>
             <NavLink to = "/notifications" className="border-0">
-            {pathname === "/notifications" ? <BellFilled style={{fontSize: "24px", color: "white"}}/> : <BellOutlined style={{fontSize: "24px", color: "white"}}/> }
+            {pathname === "/notifications" ? <BellFilled style={{fontSize: "22px", color: "white"}}/> : <BellOutlined style={{fontSize: "24px", color: "white"}}/> }
             </NavLink>
 
             </div>
