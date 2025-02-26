@@ -104,45 +104,53 @@ html, body {
 
 /*Notification cards*/
 .notification-card{
-  /* border-color: #181928;
-  width: 100%;
-  position: relative;
-  padding: 0px;
-  color: #181928;
-  height: 100px;
-  margin: 10px auto;
-  border: 1px solid #181928;
-  margin-bottom: 15px; */
-  width: 380px;
-  height: 70%;
   display: flex;
   flex-direction: column;
+  width: 350px;
+  height: 80px;
   padding: 0px;
+  display: flex;
   border: 1px solid #414158;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   background-color: #222232;
+  color: white;
 }
 
 .notification-content{
- display: flex;
- align-items: flex-center;
- gap: 10px;
- position: relative;
+ /* display: flex;
+ flex-direction: column;
+ align-items: center; */
+ 
 }
+.notification-title{
+  position: absolute;
+  margin-top: 5px;
+}
+.notification-description{
+
+}
+
 .notification-image{
   width: 60px;
   height: 70px;
   display: flex;
-
-
   border-radius: 10%;
-  /* object-fit: cover; */
+  object-fit: cover; 
+}
+.notification-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center cards horizontally */
+  justify-content: flex-start; /* Start below the top bar */
+  gap: 10px; /* Space between cards */
+  min-height: 100vh; /* Ensure it takes full height */
+  padding-top: 80px; /* Push cards below the top bar */
 }
 
   .notification-icon {
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 7px;
+    right: 7px;
     cursor: pointer;
     font-size: 16px;
     color: white;
@@ -153,4 +161,12 @@ html, body {
   overflow: hidden;
   text-overflow: ellipsis;
   color: white;
+}
+
+/* Notification Page back-ground */
+
+.notification-page{
+  background-color: #181928;
+  height: 100vh;
+    width: 100vw;
 }

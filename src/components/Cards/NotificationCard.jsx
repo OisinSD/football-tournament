@@ -11,20 +11,18 @@ export default function NotificationCard({image, title, description}){
         }
         return text.slice(0, maxlength) + "...";
       };
+
+
     return(
         <Card className="notification-card">
-             <div className="notification-content">
-                <img
-                src={image}
-                alt="2024 Cousins Cup Winner"
-                className="notification-image"
-                />
-                <div className="notification-text">
-                    <h3>{shortenText(title, 20)}</h3>
-                    <p>{shortenText(description, 40)}</p>
-                </div>
-                    <ExpandAltOutlined className="notification-icon"/>
-             </div>
+          {/* <div className="notification-content"> */}
+                {/* <img src={image} alt={title} className="notifiation-image" /> */}
+                {/* <div className="notification-text"> */}
+                    <h3 className="notificaiton-title">{shortenText(title, 20)}</h3>
+                    <p className="notificaiton-description">{shortenText(description, 40)}</p>
+                {/* </div> */}
+                <ExpandAltOutlined className="notification-icon"/>
+             {/* </div> */}
        
         </Card>
     );

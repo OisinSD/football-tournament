@@ -7,18 +7,14 @@ import Winner from "../assets/cousinsCupWinner.png";
 
 
 export default function Notifications(){
-
     return(
       <>
       <TopBar/>
       <Layout className="back-drop">
-      
-      <div>
-        <NotificationCard
-          image = {Winner}
-          title="2024 Winner"
-          description=""
-          />
+      <div className="notification-container">
+        <NotificationCard image = {Winner} title="2024 Winner" description="Conal steals the cup after a long 5 year run from Cormac"/>
+        <NotificationCard image = {Winner} title="2024 Winner" description=""/>
+        <NotificationCard image = {Winner} title="2024 Winner" description=""/>
       </div>
       </Layout>
       </>
